@@ -1,0 +1,192 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    width: 100wh;
+}
+/******************header************************/
+
+header div:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    height: 80px;
+}
+
+header #logo {
+    height: 600px;
+    width: 400px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+header nav ul li {
+    margin: 30px;
+ 
+    font-size: medium;
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #273273;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header .bleu {
+    background-color: #49A3F2;
+    color: white;
+    height: 5O px;
+    width: 198 px;
+
+}
+/***************************main**********************************/
+/*************forms***************/
+    /* Style général du bouton */
+    .custom-button {
+      display: flex;
+      padding: 20px 20px;
+      margin: 20px;
+      background-color: #ce3eb1;
+      color: #fff;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 16px;
+      width: 300px;
+      
+    }
+
+    svg {
+        fill: white;
+        width: 20px;
+        height: 20px;
+    }
+
+    #form {
+        border-radius: 30px;
+        
+    }
+
+    /* Style du label à l'intérieur du bouton 
+    .custom-button label {
+      position: relative;
+      z-index: 2;
+    }
+    */
+
+    /* Style du fond du bouton 
+    .custom-button::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ce3eb1;
+      border-radius: 5px;
+      z-index: 1;
+    }
+    */
+
+    main #bell_formular {
+        display: flex;
+        flex-direction: row;
+        align-items: center ;
+        width: 100wh;
+        height: 100vh;
+    } 
+     main #bell_formular #form {
+      position:relative;
+     }
+
+    main #bell_formular img{
+       width: 700px;
+       height: 600px;
+       position: absolute;
+       right: 10%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********forms******************/
+main section>div {
+    display: flex;    
+}
+
+main section img {
+    
+    width: 550px;
+    height: 70vh;
+  
+}
+
+main section #histoire {
+    color: white;
+    background-color: #49A3F2; 
+    display:flex;
+    flex-direction: column;
+    
+}
+
+#container_histoire {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/**************************footer*****************************/
+footer {
+    background-color: #273273;
+}
+
+#div_footer {
+    dislay:flex;
+    justify-content: space-between;
+    
+}
+footer #fonctionnalities{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#footer_logo {
+    height: 300px;
+    width: 300px;
+}
+footer #droit {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+footer #droit a {
+    color: white;
+    text-decoration: none;
+}
