@@ -20,11 +20,14 @@ header #logo {
     height: 600px;
     width: 400px;
 }
-
+header nav {
+    width: 80%;
+}
 header nav ul {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    
 }
 header nav ul li {
     margin: 30px;
@@ -36,7 +39,8 @@ header nav ul li {
 }
 
 header a {
-    text-decoration: none;
+    list-style: none;
+    text-decoration: none ;
 }
 
 header .bleu {
@@ -169,14 +173,17 @@ footer {
 }
 
 #div_footer {
-    dislay:flex;
+    display:flex;
     justify-content: space-between;
     
 }
-footer #fonctionnalities{
+footer #Fonctionnalities{
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    color: white;
+    margin: 10px;
 }
 
 #footer_logo {

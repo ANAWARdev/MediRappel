@@ -20,11 +20,14 @@ header #logo {
     height: 600px;
     width: 400px;
 }
-
+header nav {
+    width: 80%;
+}
 header nav ul {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    
 }
 header nav ul li {
     margin: 30px;
@@ -36,7 +39,8 @@ header nav ul li {
 }
 
 header a {
-    text-decoration: none;
+    list-style: none;
+    text-decoration: none ;
 }
 
 header .bleu {
@@ -47,7 +51,21 @@ header .bleu {
 
 }
 /**************main*****************/
+main #procedure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+main #procedure form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
 
+
+main section #globe {
+    align-items: end;
+}
 
 main section:nth-of-type(2)>div {
     display: flex;    
@@ -55,9 +73,9 @@ main section:nth-of-type(2)>div {
 
 main section:nth-of-type(1) img {
     
-    width: 550px;
+    width: 450px;
     height: 70vh;
-  
+
 }
 main section:nth-of-type(2) img {
     
@@ -85,14 +103,17 @@ footer {
 }
 
 #div_footer {
-    dislay:flex;
+    display:flex;
     justify-content: space-between;
     
 }
-footer #fonctionnalities{
+footer #Fonctionnalities{
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    color: white;
+    margin: 10px;
 }
 
 #footer_logo {
