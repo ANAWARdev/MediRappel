@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/Inscription.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <div>
+            <img id="logo" src="/logo/logo petit taille.png">
+        <nav>
+            <ul>
+                <a href="#"><li> Guide d'utilisation </li></a> 
+                <a href="#"><li> Fonctionnalités </li></a> 
+                <a href="#"> <li> Qui sommes-nous? </li></a> 
+                <a href="#"><li> Se connecter </li></a> 
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <main>
+          <h1>Titre de l'action</h1>
+          <p>la meilleure pour protéger nos chers des oublis de prise de médicaments? </p>
+        <div id="form_inscription">
+            <form action="/action_page.php">
+                <div>
+                    <label for="civlite">Civilité</label><br>
+                    <input type="text" id="civillite" name="civillite" placeholder="Monsieur ou Madame"><br>
+                </div>    
+                
+                <div>
+                    <label for="prenom">Prénom</label><br>
+                    <input type="text" id="prenom" name="prenom" minlength="3" placeholder="Mark"><br>
+                </div>
+
+                <div>
+                    <label for="nom">Nom</label><br>
+                    <input type="text" id="nom" name="nom" placeholder="Oliver"><br>
+                </div>
+                
+                <div>
+                    <label for="tlf">Téléphone</label><br>
+                    <input type="tel" id="tlf" name="tlf" maxlength="10" placeholder="0678216790" ><br>
+                </div>
+
+                <div>
+                    <label for="date_of_birth">Date of birth</label><br>
+                    <input type="date" id="date_of_birth" name="date_of_birth" ><br>
+                </div>
+            </form> 
+        </div>
+
+        <div>
+            <h1>Identifiants du compte:</h1>
+            <div>
+                <label for="Email">Email</label><br>
+                <input type="Email" id="Email" name="Email"  placeholder="toto@gmail.com" ><br>
+            </div>
+
+            <div>
+                <label for="Mot de passe">Mot de passe</label><br>
+                <input type="password" id="Mot_de_passe" name="Mot de passe" ><br>
+            </div>
+        </form> 
+        </div>
+        <div> 
+            <h4>
+                CGU et politique de confidentialité :
+            </h4>
+            <form action="/action_page.php">
+                <input type="checkbox" id="politique confidentialite" name="politique confidentialite" value="politique">
+                <label for="politique confidentialite"> J'accepte les conditions générales et d'iutilisation et la politique de confidentialité.</label><br>
+                <input type="checkbox" id="enregistrement data" name="enregistrement data"value="Data">
+                <label for="enregistrement data"> J'autorise MédiRappel à enregistrer et utiliser mes donées personnelles.</label><br>
+              </form>
+        </div>
+
+        <button type="submit">Envoyer</button>
+    </main>
+    <footer>
+        <div id="div_footer">
+            
+            <img id="footer_logo" src="/logo/Logo bleu marine.png">
+        
+            <div id="Fonctionnalities">
+            <h3><a href="#"></a> Guide d'utilisation</a> </h3> 
+
+            <div>
+                <h3><a href="#"></a> Fonctionnalities</a> </h3> 
+                <h5><a href="#"></a> Rappel médicament </a> </h5>
+                <h5><a href="#"></a> Rappel Rendez-vous</a> </h5>
+                <h5><a href="#"></a> Proramme</a> </h5>
+                <h5><a href="#"></a> Pharmacie</a> </h5>
+             </div>
+            <h3><a href="#"></a> Qui sommes-nous?</a> </h3> 
+            <h3><a href="#"></a> Se connecter </a> </h3> 
+            </div>
+            </div>
+            <div id="droit">
+            <h5> <a href="#">Mentions Légales </a> </h5>
+            <h5><a href="#">CGU</a> </h5>  
+            <h5><a href="#">Politique de confidentialité</a> </h5>  
+            <h5><a  href="#"> Gestion des cookies</a> </h5> 
+        </div>
+    </footer>
+</body>
+</html>
