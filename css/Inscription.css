@@ -61,6 +61,29 @@ flex-wrap: wrap;
     margin: 30px;
     width: 250px;
     }
+    main section>div {
+        display: flex;    
+    }
+
+    main section img {
+        
+        width: 550px;
+        height: 70vh;
+      
+    }
+
+    main section #histoire {
+        color: white;
+        background-color: #49A3F2; 
+        display:flex;
+        flex-direction: column;
+        
+    }
+    
+    #container_histoire {
+        display: flex;
+        justify-content: center;
+    }
 
 
 
